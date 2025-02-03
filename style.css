@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    font-family: 'inter'
+}
+
+#menusuperior{
+    padding: 5px;
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color:#FFFFFF
+}
+
+#titulo{
+    margin-left: 62px;
+    margin-top: 180px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+#subtitulo{
+    margin-left: 62px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 100px;
+}
+
+#menuinformacinal{
+    color: black;
+}
+
+#menuinformacinal{
+    display: flex;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F9F9F9;
+    padding-bottom: 60px;
+}
+
+#informacao1 {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#informacao2 {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#informacao3 {
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+.numero{
+    font-size: 40px;
+}
+
+.textoinformativo{
+    font-size: 28px;
+}
+
+#secaoimagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#tituloimagem{
+    font-size: 45px;
+    line-height: 20px;
+    margin-top: 230px;
+    font-weight: 500;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 100px;
+    margin-left: 200px;
+}
+
+#textoimagem{
+    font-size: 27px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-left: 200px;
+}
+
+#imagem{
+    margin-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 100px;
+    width: 510px;
+}
+
+#formulario {
+    text-align: center;
+    background-color: #303030;
+    padding-top: 50px;
+}
+
+#titulo-formulario {
+    font-size: 35px;
+    margin: 25px;
+    color: #FFFFFF;
+}
+
+input{
+    width: 508px;
+    height: 60px;
+    background-color: #FFFFFF;
+    margin: 40px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: 'Raleway';
+}
+
+button{
+    background-color: #C07212;
+    font-size: 25px;
+    height: 60px;
+    width: 246px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #C07212;
+    color: white;  
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #110b685e;
+    transition-duration: 5s;
+}
+
+
+
+
+
+
+
+
